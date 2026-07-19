@@ -1,8 +1,8 @@
 <div align="center">
  
-![logo](https://github.com/Sahil-Khilari/Multi-Agent-Medical-Assistant/blob/main/assets/logo_rounded.png)
+![logo](https://github.com/Sahil-Khilari/MedBot/blob/main/assets/logo_rounded.png)
 
-<h1 align="center"><strong>⚕️ Multi-Agent-Medical-Assistant :<h6 align="center">AI-powered multi-agentic system for medical diagnosis and assistance</h6></strong></h1>
+<h1 align="center"><strong>⚕️ MedBot :<h6 align="center">AI-powered multi-agentic system for medical diagnosis and assistance</h6></strong></h1>
 
 <!-- ![PyTorch - Version](https://img.shields.io/badge/PYTORCH-2.0+-red?style=for-the-badge&logo=pytorch) -->
 ![Python - Version](https://img.shields.io/badge/PYTHON-3.11+-blue?style=for-the-badge&logo=python&logoColor=white)
@@ -12,8 +12,8 @@
 ![Pydantic - Version](https://img.shields.io/badge/Pydantic-2.10+-red?style=for-the-badge&logo=pydantic)
 ![FastAPI - Version](https://img.shields.io/badge/FastAPI-0.115+-teal?style=for-the-badge&logo=fastapi)
 ![Docling - Version](https://img.shields.io/badge/Docling-3.1+-orange?style=for-the-badge&logo=docling)
-[![Generic badge](https://img.shields.io/badge/License-Apache-<COLOR>.svg?style=for-the-badge)](https://github.com/Sahil-Khilari/Multi-Agent-Medical-Assistant/blob/main/LICENSE) 
-[![GitHub Issues](https://img.shields.io/github/issues/Sahil-Khilari/Multi-Agent-Medical-Assistant.svg?style=for-the-badge)](https://github.com/Sahil-Khilari/Multi-Agent-Medical-Assistant/issues)
+[![Generic badge](https://img.shields.io/badge/License-Apache-<COLOR>.svg?style=for-the-badge)](https://github.com/Sahil-Khilari/MedBot/blob/main/LICENSE) 
+[![GitHub Issues](https://img.shields.io/github/issues/Sahil-Khilari/MedBot.svg?style=for-the-badge)](https://github.com/Sahil-Khilari/MedBot/issues)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg?style=for-the-badge)
 
 </div>
@@ -21,15 +21,11 @@
 ----
 
 > [!IMPORTANT]  
-> 📋 Version Updates from v2.0 to v2.1 and further:
 > 1. **Document Processing Upgrade**: Unstructured.io has been replaced with Docling for document parsing and extraction of text, tables, and images to be embedded.
 > 2. **Enhanced RAG References**: Links to source documents and reference images present in reranked retrieved chunks stored in local storage are added to the bottom of the RAG responses.
->
-> To use Unstructured.io based solution, refer release - [v2.0](https://github.com/Sahil-Khilari/Multi-Agent-Medical-Assistant/tree/v2.0).
  
 ## 📚 Table of Contents
 - [Overview](#overview)
-- [Demo](#demo)
 - [Technical Flow Chart](#technical-flowchart)
 - [Key Features](#key-features)
 - [Tech Stack](#technology-stack)
@@ -70,18 +66,6 @@ Using a **Multi-Agentic framework**, this assistant integrates **Large Language 
 This project serves as a **comprehensive resource** for learning and implementing **GenAI with multi-agent orchestration**. It demonstrates **advanced Retrieval-Augmented Generation (RAG)**, integrating **vector search with hybrid retrieval techniques**, **efficient chunking strategies respecting document semantic boundaries**, **confidence-based routing**, **agent-to-agent handoff**, **real-time web search capabilities**, **human-in-the-loop validation** and more. The system incorporates **specialized AI agents** for medical reasoning, diagnosis, and research retrieval, all working seamlessly through a structured graph workflow. Developers will gain insights into **modular agentic AI solution design, and robust exception handling** — ensuring **scalability and production readiness**.
 
 For learners: Refer `agents/README.md` for detailed explanation of the agentic workflow. -->
-
----
-
-## 💫 Demo <a name="demo"></a>
-
-
-https://github.com/user-attachments/assets/d27d4a2e-1c7d-45e2-bbc5-b3d95ccd5b35
-
-
-If you like what you see and would want to support the project's developer, you can <a href="https://www.buymeacoffee.com/souvikmajumder" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a> ! :)
-
-📂 **For an even more detailed demo video**: Check out [`Multi-Agent-Medical-Assistant-v1.9`](assets/Multi-Agent-Medical-Assistant-v1.9_Compressed.mp4). 📽️
 
 ---
 
@@ -182,8 +166,8 @@ If you like what you see and would want to support the project's developer, you 
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/Sahil-Khilari/Multi-Agent-Medical-Assistant.git
-cd Multi-Agent-Medical-Assistant
+git clone https://github.com/Sahil-Khilari/MedBot.git
+cd Medbot
 ```
 
 ### 2️⃣ Create Environment File
@@ -286,8 +270,8 @@ docker logs medical-assistant-app
 
 ### 1️⃣ Clone the Repository  
 ```bash  
-git clone https://github.com/Sahil-Khilari/Multi-Agent-Medical-Assistant.git  
-cd Multi-Agent-Medical-Assistant  
+git clone https://github.com/Sahil-Khilari/MedBot.git  
+cd MedBot 
 ```
 
 ### 2️⃣ Create & Activate Virtual Environment  
@@ -376,9 +360,9 @@ This project is licensed under the **Apache-2.0 License**. See the [LICENSE](LIC
 ## 📬 Contact  <a name="contact"></a>
 For any questions or collaboration inquiries, reach out to **Sahil Khilari** on:  
 
-🔗 **LinkedIn**: 
+🔗 **LinkedIn**[https://www.linkedin.com/in/sahil-khilari-806856289/]: 
 
-🔗 **GitHub**: 
+🔗 **Gmail**[khilarisahil786@gmail.com]: 
 
 <p align="right">
  <a href="#top"><b>🔝 Return </b></a>
