@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(venv/Scripts/python -c \"from langchain.storage import InMemoryStore, LocalFileStore; print\\('storage OK'\\)\")",
+      "Bash(venv/Scripts/python app.py)",
+      "Bash(curl -s -X POST http://localhost:8000/chat -H \"Content-Type: application/json\" -d \"{\\\\\"query\\\\\": \\\\\"Can you explain why Tanvi Shruti and Saroj are worrying about the project when they have Sahil in the team\\\\\"}\")",
+      "Bash(curl -s -X POST http://localhost:8000/chat -H \"Content-Type: application/json\" -d \"{\\\\\"query\\\\\": \\\\\"what are symptoms of fever\\\\\"}\")",
+      "Bash(curl -s -X POST http://localhost:8000/chat -H \"Content-Type: application/json\" -d \"{\\\\\"query\\\\\": \\\\\"explain pointers in c++\\\\\"}\")",
+      "Bash(venv/Scripts/python -c ' *)",
+      "Bash(venv/Scripts/python -m pip install gtts)",
+      "Bash(curl -s http://localhost:8000/health)",
+      "Bash(venv/Scripts/pip install *)",
+      "Bash(venv/Scripts/pip uninstall *)",
+      "Bash(venv/Scripts/python.exe -c \"from agents.agent_decision import process_query; print\\('agent_decision imports OK'\\)\")",
+      "Bash(venv/Scripts/python.exe -c \"from authlib.integrations.starlette_client import OAuth; from jose import jwt; import aiosqlite; print\\('authlib, python-jose, aiosqlite all OK'\\)\")",
+      "Bash(python -c \"import secrets; print\\(secrets.token_hex\\(32\\)\\)\")",
+      "Bash(venv/Scripts/python.exe -c \"from database import init_db; init_db\\(\\); print\\('DB initialized'\\)\")",
+      "Bash(venv/Scripts/python.exe -c \"import sqlite3; conn = sqlite3.connect\\('data/app.db'\\); print\\(conn.execute\\(\\\\\"SELECT name FROM sqlite_master WHERE type='table'\\\\\"\\).fetchall\\(\\)\\)\")",
+      "Bash(venv/Scripts/python.exe -c \"from database import init_db; init_db\\(\\); print\\('OK'\\)\")",
+      "PowerShell(cd \"c:\\\\Users\\\\khila\\\\OneDrive\\\\Desktop\\\\MEDBOT-MULTIAGENT MEDICAL ASSISTANT SYSTEM CHATBOT\\\\MEDBOT\"; ls -Recurse \"agents\\\\image_analysis_agent\\\\brain_tumor_agent\\\\models\\\\\" -Force 2>$null | ForEach-Object { $_.FullName; if \\($_.Length\\) { \"$\\([Math]::Round\\($_.Length/1MB, 2\\)\\)MB\" } })"
+    ]
+  }
+}
